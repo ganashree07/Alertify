@@ -1,0 +1,13 @@
+# Path to your dataset
+path: C:/Users/Babureddy B/OneDrive/Documents/Desktop/ROAD_N/data
+train: train/images
+val: valid/images
+test: test/images
+
+# Number of classes
+nc: 2
+
+# Class names
+names:
+  0: accident
+  1: no_accident

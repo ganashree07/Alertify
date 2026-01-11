@@ -1,0 +1,67 @@
+# ---- Python / Bytecode ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---- Virtual environments ----
+env/
+venv/
+.venv/
+yolo_env/
+env.bak/
+
+# ---- IDEs / Editors ----
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Testing / Cache ----
+.pytest_cache/
+
+# ---- Packaging / Build ----
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---- Logs / Temp ----
+*.log
+*.tmp
+*.temp
+*.bak
+tempCodeRunnerFile.py
+
+# ---- ML artifacts / models / weights ----
+runs/
+results/
+weights/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.tflite
+
+# ---- Dataset (ignore images, keep labels) ----
+data/*/images/
+
+# ---- Jupyter ----
+.ipynb_checkpoints
+
+# ---- Coverage ----
+.coverage
+htmlcov/
+
+# ---- Environment / secrets ----
+.env
+.env.*
+
+# ---- Databases ----
+*.sqlite3
